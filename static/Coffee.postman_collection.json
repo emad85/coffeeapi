@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "c2fe4b65-3056-47be-b71e-56d3856cece9",
+		"name": "Coffee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Machines ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/1.0/coffee/machines",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1.0",
+						"coffee",
+						"machines"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Pods ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/1.0/coffee/pods",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1.0",
+						"coffee",
+						"pods"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Machines by Product Type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/1.0/coffee/machines?waterLineCompatible=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1.0",
+						"coffee",
+						"machines"
+					],
+					"query": [
+						{
+							"key": "waterLineCompatible",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Machines by Water Line Compatible",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/1.0/coffee/machines?productType=large",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1.0",
+						"coffee",
+						"machines"
+					],
+					"query": [
+						{
+							"key": "productType",
+							"value": "large"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Pods by Package Size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/1.0/coffee/pods?packageSize=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1.0",
+						"coffee",
+						"pods"
+					],
+					"query": [
+						{
+							"key": "packageSize",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Machines: Return only Code and model",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/1.0/coffee/machines?fields=code,model",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1.0",
+						"coffee",
+						"machines"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "code,model"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

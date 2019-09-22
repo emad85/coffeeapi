@@ -1,0 +1,158 @@
+[
+	{
+		"code": "CP001",
+		"productType": "small",
+		"flavor": "vanilla",
+		"packageSize": 1
+	},
+	{
+		"code": "CP003",
+		"productType": "small",
+		"flavor": "vanilla",
+		"packageSize": 3
+	},
+	{
+		"code": "CP011",
+		"productType": "small",
+		"flavor": "caramel",
+		"packageSize": 1
+	},
+	{
+		"code": "CP013",
+		"productType": "small",
+		"flavor": "caramel",
+		"packageSize": 3
+	},
+	{
+		"code": "CP021",
+		"productType": "small",
+		"flavor": "psl",
+		"packageSize": 1
+	},
+	{
+		"code": "CP023",
+		"productType": "small",
+		"flavor": "psl",
+		"packageSize": 3
+	},
+	{
+		"code": "CP031",
+		"productType": "small",
+		"flavor": "mocha",
+		"packageSize": 1
+	},
+	{
+		"code": "CP033",
+		"productType": "small",
+		"flavor": "mocha",
+		"packageSize": 3
+	},
+	{
+		"code": "CP041",
+		"productType": "small",
+		"flavor": "hazelnut",
+		"packageSize": 1
+	},
+	{
+		"code": "CP043",
+		"productType": "small",
+		"flavor": "hazelnut",
+		"packageSize": 3
+	},
+	{
+		"code": "CP101",
+		"productType": "large",
+		"flavor": "vanilla",
+		"packageSize": 1
+	},
+	{
+		"code": "CP103",
+		"productType": "large",
+		"flavor": "vanilla",
+		"packageSize": 3
+	},
+	{
+		"code": "CP111",
+		"productType": "large",
+		"flavor": "caramel",
+		"packageSize": 1
+	},
+	{
+		"code": "CP113",
+		"productType": "large",
+		"flavor": "caramel",
+		"packageSize": 3
+	},
+	{
+		"code": "CP121",
+		"productType": "large",
+		"flavor": "psl",
+		"packageSize": 1
+	},
+	{
+		"code": "CP123",
+		"productType": "large",
+		"flavor": "psl",
+		"packageSize": 3
+	},
+	{
+		"code": "CP131",
+		"productType": "large",
+		"flavor": "mocha",
+		"packageSize": 1
+	},
+	{
+		"code": "CP133",
+		"productType": "large",
+		"flavor": "mocha",
+		"packageSize": 3
+	},
+	{
+		"code": "CP141",
+		"productType": "large",
+		"flavor": "hazelnut",
+		"packageSize": 1
+	},
+	{
+		"code": "CP143",
+		"productType": "large",
+		"flavor": "hazelnut",
+		"packageSize": 3
+	},
+	{
+		"code": "EP003",
+		"productType": "espresso",
+		"flavor": "vanilla",
+		"packageSize": 3
+	},
+	{
+		"code": "EP005",
+		"productType": "espresso",
+		"flavor": "vanilla",
+		"packageSize": 5
+	},
+	{
+		"code": "EP007",
+		"productType": "espresso",
+		"flavor": "vanilla",
+		"packageSize": 7
+	},
+	{
+		"code": "EP013",
+		"productType": "espresso",
+		"flavor": "caramel",
+		"packageSize": 3
+	},
+	{
+		"code": "EP015",
+		"productType": "espresso",
+		"flavor": "caramel",
+		"packageSize": 5
+	},
+	{
+		"code": "EP017",
+		"productType": "espresso",
+		"flavor": "caramel",
+		"packageSize": 7
+	}
+]

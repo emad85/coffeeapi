@@ -1,0 +1,5 @@
+src/**/*.test.js
+--require babel-polyfill  
+--require @babel/register 
+--require ./test/init
+--recursive

@@ -1,0 +1,56 @@
+[
+	{
+		"code": "CM001",
+		"productType": "small",
+		"waterLineCompatible": false,
+		"model": "base"
+	}, 
+	{
+		"code": "CM002",
+		"productType": "small",
+		"waterLineCompatible": false,
+		"model": "premium"
+	}, 
+	{
+		"code": "CM003",
+		"productType": "small",
+		"waterLineCompatible": true,
+		"model": "deluxe"
+	},
+	{
+		"code": "CM101",
+		"productType": "large",
+		"waterLineCompatible": false,
+		"model": "base"
+	},
+	{
+		"code": "CM102",
+		"productType": "large",
+		"waterLineCompatible": true,
+		"model": "deluxe"
+	},
+	{
+		"code": "CM103",
+		"productType": "large",
+		"waterLineCompatible": true,
+		"model": "deluxe"
+	},
+	{
+		"code": "EM001",
+		"productType": "espresso",
+		"waterLineCompatible": false,
+		"model": "base"
+	},
+	{
+		"code": "EM002",
+		"productType": "espresso",
+		"waterLineCompatible": false,
+		"model": "premium"
+	},
+	{
+		"code": "EM003",
+		"productType": "espresso",
+		"waterLineCompatible": true,
+		"model": "deluxe"
+	}
+]
