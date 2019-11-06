@@ -19,7 +19,7 @@
     "express-validator": "^6.2.0",
     "lodash": "^4.17.15",
     "mongodb-memory-server": "^5.2.3",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "sinon": "^7.4.2"
   },
   "config": {
